@@ -1,0 +1,156 @@
+{
+    "M.evt.ADDED_LAYER": {
+        "prefix": "M.evt.ADDED_LAYER",
+        "body": [
+            "M.evt.ADDED_LAYER"
+        ],
+        "description": "Evento asociados al mapa y a las capas: Se ha añadido una capa"
+    },
+    "M.evt.ADDED_WFS": {
+        "prefix": "M.evt.ADDED_WFS",
+        "body": [
+            "M.evt.ADDED_WFS"
+        ],
+        "description": "Evento asociados al mapa y a las capas: Se ha añadido una capa WFS"
+    },
+    "M.evt.ADDED_WMC": {
+        "prefix": "M.evt.ADDED_WMC",
+        "body": [
+            "M.evt.ADDED_WMC"
+        ],
+        "description": "Evento asociados al mapa y a las capas: Se ha añadido un WMC"
+    },
+    "M.evt.ADDED_WMT": {
+        "prefix": "M.evt.ADDED_WMT",
+        "body": [
+            "M.evt.ADDED_WMT"
+        ],
+        "description": "Evento asociados al mapa y a las capas: Se ha añadido una capa WMTS"
+    },
+    "M.evt.LOAD": {
+        "prefix": "M.evt.LOAD",
+        "body": [
+            "M.evt.LOAD"
+        ],
+        "description": "Evento asociados al mapa y a las capas: Se han cargado los features de la capa"
+    },
+    "M.evt.ADDED_WMS": {
+        "prefix": "M.evt.ADDED_WMS",
+        "body": [
+            "M.evt.ADDED_WMS"
+        ],
+        "description": "Evento asociados al mapa y a las capas: Se ha añadido una capa WMS"
+    },
+    "M.evt.COMPLETED": {
+        "prefix": "M.evt.COMPLETED",
+        "body": [
+            "M.evt.COMPLETED"
+        ],
+        "description": "Evento asociados al mapa y a las capas: Se ha completado la definición interna del mapa. Requiere capa base."
+    },
+    "M.evt.CHANGE": {
+        "prefix": "M.evt.CHANGE",
+        "body": [
+            "M.evt.CHANGE"
+        ],
+        "description": "Evento asociados al mapa y a las capas: Ha cambiado la proyección del mapa"
+    },
+    "M.evt.CHANGE_WMC": {
+        "prefix": "M.evt.CHANGE_WMC",
+        "body": [
+            "M.evt.CHANGE_WMC"
+        ],
+        "description": "Evento asociados al mapa y a las capas: Ha cambiado el WMC activo."
+    },
+    "M.evt.CLICK": {
+        "prefix": "M.evt.CLICK",
+        "body": [
+            "M.evt.CLICK"
+        ],
+        "description": "Evento asociados al mapa y a las capas: Se ha hecho click en el mapa (captura coordenadas)"
+    },
+    "M.evt.CHANGE_STYLE": {
+        "prefix": "M.evt.CHANGE_STYLE",
+        "body": [
+            "M.evt.CHANGE_STYLE"
+        ],
+        "description": "Evento asociados al mapa y a las capas: Ha cambiado el estilo de la capa o de la feature"
+    },
+    "M.evt.ADDED_TO_MAP": {
+        "prefix": "M.evt.ADDED_TO_MAP",
+        "body": [
+            "M.evt.ADDED_TO_MAP"
+        ],
+        "description": "Evento asociados a los paneles: El panel se ha añadido al mapa"
+    },
+    "M.evt.SHOW": {
+        "prefix": "M.evt.SHOW",
+        "body": [
+            "M.evt.SHOW"
+        ],
+        "description": "Evento asociados a los paneles: El panel se ha abierto"
+    },
+    "M.evt.HIDE": {
+        "prefix": "M.evt.HIDE",
+        "body": [
+            "M.evt.HIDE"
+        ],
+        "description": "Evento asociados a los paneles: El panel se ha ocultado"
+    },
+    "M.evt.ADDED_TO_PANEL": {
+        "prefix": "M.evt.ADDED_TO_PANEL",
+        "body": [
+            "M.evt.ADDED_TO_PANEL"
+        ],
+        "description": "Evento asociados a los controles: El control se ha añadido al panel"
+    },
+    "M.evt.ACTIVATED": {
+        "prefix": "M.evt.ACTIVATED",
+        "body": [
+            "M.evt.ACTIVATED"
+        ],
+        "description": "Evento asociados a los controles: El control se ha activado"
+    },
+    "M.evt.DEACTIVATED": {
+        "prefix": "M.evt.DEACTIVATED",
+        "body": [
+            "M.evt.DEACTIVATED"
+        ],
+        "description": "Evento asociados a los controles: El control se ha desactivado"
+    },
+    "M.evt.SELECT_FEATURES": {
+        "prefix": "M.evt.SELECT_FEATURES",
+        "body": [
+            "M.evt.SELECT_FEATURES"
+        ],
+        "description": "Evento asociados a la interacción con features: Se ha seleccionado un feature"
+    },
+    "M.evt.UNSELECT_FEATURES": {
+        "prefix": "M.evt.UNSELECT_FEATURES",
+        "body": [
+            "M.evt.UNSELECT_FEATURES"
+        ],
+        "description": "Evento asociados a la interacción con features: Un feature ha perdido la selección"
+    },
+    "M.evt.HOVER_FEATURES": {
+        "prefix": "M.evt.HOVER_FEATURES",
+        "body": [
+            "M.evt.HOVER_FEATURES"
+        ],
+        "description": "Evento asociados a la interacción con features: El cursor pasa por encima de un feature"
+    },
+    "M.evt.LEAVE_FEATURES": {
+        "prefix": "M.evt.LEAVE_FEATURES",
+        "body": [
+            "M.evt.LEAVE_FEATURES"
+        ],
+        "description": "Evento asociados a la interacción con features: El cursor abandona un feature"
+    },
+    "M.evt.DESTROY": {
+        "prefix": "M.evt.DESTROY",
+        "body": [
+            "M.evt.DESTROY"
+        ],
+        "description": "Evento: Se ha lanzado el método Destroy del elemento"
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "mapea-newWFS": {
+        "prefix": "!mapea-newWFS",
+        "body": [
+            "var $0 = new M.layer.WFS({",
+            "\turl: '$1',",
+            "\tnamespace: '$2',",
+            "\tname: '$3',",
+            "\tlegend: '$4',",
+            "\tgeometry: '$5'",
+            "});",
+            "myMap.addWFS($0);"
+        ],
+        "description": "Crea una capa WFS"
+    }, 
+    "mapea-newWMS": {
+        "prefix": "!mapea-newWMS",
+        "body": [
+            "var $0 = new M.layer.WMS({",
+            "\turl: '$1',",
+            "\tname: '$2',",
+            "\tlegend: '$3',",
+            "\ttransparent: $4,",
+            "\ttiled: $5",
+            "});",
+            "myMap.addWMS($0);"
+        ],
+        "description": "Crea una capa WMS"
+    },
+    "mapea-newWMC": {
+        "prefix": "!mapea-newWMC",
+        "body": [
+            "var $0 = new M.layer.WMC({",
+            "\turl: '$1',",
+            "\tname: '$2'",
+            "});",
+            "myMap.addWMC($0);"
+        ],
+        "description": "Crea una capa WMC"
+    },
+    "mapea-newWMTS": {
+        "prefix": "!mapea-newWMTS",
+        "body": [
+            "var $0 = new M.layer.WMTS({",
+            "\turl: '$1',",
+            "\tname: '$2',",
+            "\tmatrixSet: '$3',",
+            "\tlegend: '$4'",
+            "}, {",
+            "\tformat: '$5'",
+            "});",
+            "myMap.addWMTS($0);"
+        ],
+        "description": "Crea una capa WMTS"
+    },
+    "mapea-newGeoJSON": {
+        "prefix": "!mapea-newGeoJSON",
+        "body": [
+            "var $0 = new M.layer.GeoJSON({",
+            "\tname: '$1',",
+            "\textract: false,",
+            "\tsource: {",
+            "\t\ttype: 'FeatureCollection',",
+            "\t\tfeatures: [],",
+            "\t\tcrs: {",
+            "\t\t\tproperties: {",
+            "\t\t\t\tname: '$2'",
+            "\t\t\t},",
+            "\t\t\ttype: '$3'",
+            "\t\t}",
+            "\t}",
+            "});",
+            "",
+            "myMap.addLayers($0);"
+        ],
+        "description": "Crea una capa GeoJSON"
+    },
+    "mapea-newGeoJSON-Servido": {
+        "prefix": "!mapea-newGeoJSON-Servido",
+        "body": [
+            "var $0 = new M.layer.GeoJSON({",
+            "\tname: '$1',",
+            "\turl: '$2'",
+            "});",
+            "",
+            "myMap.addLayers($0);"
+        ],
+        "description": "Crea una capa GeoJSON servido"
+    },
+    "mapea-newKML": {
+        "prefix": "!mapea-newKML",
+        "body": [
+            "var $0 = new M.layer.KML({",
+            "\tname: '$1',",
+            "\turl: '$2',",
+            "\textract: false",
+            "});",
+            "",
+            "myMap.addKML($0);"
+        ],
+        "description": "Crea una capa KML"
+    }
+}
