@@ -1,5 +1,5 @@
 # Extensión para MAPEA
-Extensión para usar MAPEA de una forma más cómoda, para reducir un poco el sufrimiento que tendrás mientras programas con él.
+Extensión para usar MAPEA de una forma más cómoda.
 
 # · Métodos actuales:
 - Completitud de código en todos los eventos.

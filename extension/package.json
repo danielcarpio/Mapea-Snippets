@@ -3,7 +3,7 @@
     "displayName": "Mapea Snippets",
     "description": "Extensión para MAPEA",
     "version": "0.0.1",
-    "publisher": "Daniel Carpio",
+    "publisher": "danielcarpio",
     "icon": "icon.png",
     "engines": {
         "vscode": "^1.38.0"
