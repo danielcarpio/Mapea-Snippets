@@ -5,15 +5,13 @@ const vscode = require('vscode');
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
 
-const eventosCompleteCode = require('./completionCode/eventosMapea');
-
 
 /**
  * @param {vscode.ExtensionContext} context
  */
 function activate(context) {
-	eventosCompleteCode.eventosMapea(vscode, context);
-	
+	//Completitud de código de los eventos de Mapea
+	require('./completionCode/eventosMapea').eventosMapea(vscode, context);
 }
 
 exports.activate = activate;
